@@ -18,7 +18,7 @@ Please review the [Springboard Code of Conduct](https://www.springboard.com/lega
 
 ## Honor Code
 
-I am sharing this repo as a way of demonstrating, through example, how one could organize themselves and code effectively. By viewing and using this repo, you are committing "to uphold the ideals of honor and integrity by refusing to betray the trust bestowed upon" [1] you as a member of the Springboard community. Likewise, "[s]ubmission of material that is wholly or substantially identical to that created or published by another person or persons, without adequate credit notations indicating the authorship" [2] is plagiarism.
+I am sharing this repo to demonstrate, through example, how one could organize themselves and code effectively. By viewing and using this repo, you are committing _"to uphold the ideals of honor and integrity by refusing to betray the trust bestowed upon"_ [1] you as a member of the Springboard community. Likewise, _"submission of material that is wholly or substantially identical to that created or published by another person or persons, without adequate credit notations indicating the authorship"_ [2] is plagiarism.
 
 ## References
 
