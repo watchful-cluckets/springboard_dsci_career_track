@@ -22,5 +22,5 @@ By viewing and using this repo, you are committing _"to uphold the ideals of hon
 
 ## References
 
-[1]: Academic Honor Code | Policy Library | Georgia Institute .... <https://policylibrary.gatech.edu/student-affairs/academic-honor-code>
-[2]: 5a. Avoid Plagiarism - Research Process: A Step-by-Step .... <https://libguides.gatech.edu/c.php?g=54271&p=350397>
+- [1]: Academic Honor Code | Policy Library | Georgia Institute .... <https://policylibrary.gatech.edu/student-affairs/academic-honor-code>
+- [2]: 5a. Avoid Plagiarism - Research Process: A Step-by-Step .... <https://libguides.gatech.edu/c.php?g=54271&p=350397>
