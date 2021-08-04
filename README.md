@@ -1,5 +1,7 @@
 # Springboard DSC Mentor Example Course
 
+<div class="alert alert-block alert-danger"><b>PLEASE DO NOT COPY THE WORK IN THIS REPO.</b> It's here as a helpful reference, not as a solution. If you are stuck, contact me in Slack, let's learn together. :)</div>
+
 ## Intro
 
 This example repository demonstrates one way for mentees to organize their work to complete the [Data Science Career Track](https://www.springboard.com/courses/data-science-career-track/). To replicate this repo, do the following at the command prompt:
