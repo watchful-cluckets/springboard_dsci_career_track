@@ -5,11 +5,9 @@ repos:
     rev: 1.1.0
     hooks:
       - id: nbqa-black
-        args: [--nbqa-mutate]
       - id: nbqa-pyupgrade
-        args: [--nbqa-mutate, --py38-plus]
+        args: [--py38-plus]
       - id: nbqa-isort
-        args: [--nbqa-mutate]
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.0.1
     hooks:
