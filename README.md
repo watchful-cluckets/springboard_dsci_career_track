@@ -10,6 +10,10 @@ This example repository demonstrates one way for mentees to organize their work 
 git@github.com:watchful-cluckets/springboard_dsci_career_track.git
 ```
 
+## Pre-commit
+
+I have added some [`pre-commit`](https://pre-commit.com/) tooling to this repo. This is a powerful feature you should consider using in your work to enforce code cleanliness, consistency, and readability.
+
 ## License
 
 This work is restrictively licensed under the [GNU Affero General Public License v3.0](LICENSE).
