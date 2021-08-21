@@ -12,7 +12,11 @@ git@github.com:watchful-cluckets/springboard_dsci_career_track.git
 
 ## Pre-commit
 
-I have added some [`pre-commit`](https://pre-commit.com/) tooling to this repo. This is a powerful feature you should consider using in your work to enforce code cleanliness, consistency, and readability.
+I have added some [`pre-commit`](https://pre-commit.com/) tooling to this repo. This is a powerful feature you should consider using in your work to enforce code cleanliness, consistency, and readability. You can manually run QA checks with this command:
+
+```bash
+nbqa black . ; nbqa isort . ; nbqa pyupgrade . --py38-plus
+```
 
 ## License
 
