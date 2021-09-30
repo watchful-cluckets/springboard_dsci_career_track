@@ -4,7 +4,8 @@
 
 statistical-gis-boundaries-london*
 cache/
-datacamp_projects/school_budget/datasets/trainingdata.csv
+datacamp_projects/school_budget/datasets/train.csv
+datacamp_projects/school_budget/datasets/predictions.csv
 
 ################################################################################
 # Python
