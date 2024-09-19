@@ -1,20 +1,63 @@
 default_language_version:
-  python: python3.8
+  python: python3.10
 repos:
-  - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.1.0
-    hooks:
-      - id: nbqa-black
-      - id: nbqa-pyupgrade
-        args: [--py38-plus]
-      - id: nbqa-isort
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: v4.6.0
     hooks:
+      - id: check-added-large-files
+      - id: check-ast
+      - id: check-case-conflict
+        exclude: "^tests/.*\\.py$"
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-toml
       - id: check-yaml
+      - id: debug-statements
+      - id: detect-private-key
       - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: requirements-txt-fixer
       - id: trailing-whitespace
-  - repo: https://github.com/psf/black
-    rev: 21.7b0
+  - repo: https://github.com/pycqa/isort
+    rev: 5.13.2
     hooks:
-      - id: black
+      - id: isort
+        entry: pipenv run isort
+        types: [python]
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.17.0
+    hooks:
+      - id: pyupgrade
+        entry: pipenv run pyupgrade
+        types: [python]
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.5
+    hooks:
+      - id: ruff
+        types_or: [python, pyi, jupyter]
+        args: [--fix]
+      - id: ruff-format
+        types_or: [python, pyi, jupyter]
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.11.2
+    hooks:
+      - id: mypy
+        entry: pipenv run mypy
+        types: [python]
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+        entry: pflake8
+        additional_dependencies: [pyproject-flake8]
+        args: [--config=pyproject.toml]
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.19.2
+    hooks:
+      - id: gitleaks
+  # - repo: https://github.com/igorshubovych/markdownlint-cli
+  #   rev: v0.41.0
+  #   hooks:
+  #     - id: markdownlint
+  #       args: ["--fix"]

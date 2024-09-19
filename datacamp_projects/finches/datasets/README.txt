@@ -1,8 +1,8 @@
 __________________________________________________________________________________
 Grant, P. R., and B. R. Grant (2013) Data from Peter R. Grant and B. Rosemary Grant 2014. 40 Years of Evolution. Darwin’s Finches on Daphne Major Island. Princeton University Press, Princeton, NJ. ISBN 978-0-691-16046-7
-__________________________________________________________________________________ 
+__________________________________________________________________________________
 
-This data package contains the data used in constructing the figures of the book. They should be used in conjunction with the captions to the figures. The following abbreviations have been used in some of the data files:	                   
+This data package contains the data used in constructing the figures of the book. They should be used in conjunction with the captions to the figures. The following abbreviations have been used in some of the data files:
 
 Fig. 01-06 CI = 95% confidence interval
 Fig. 01-07 CI = 95% confidence interval
@@ -11,11 +11,11 @@ Fig. 02-11 Cumulative numbers of seeds of different size-hardness classes at two
 Fig. 02-15 SE = standard error; CI = 95% confidence interval; S = small; M = medium; L = large
 Fig. 03-01 Beak depth values
 Fig. 03-02 CI = 95% confidence interval; CL = confidence limit
-Fig. 03-03(fortis) Offspring bands = averages of offspring band numbers; femband = social mother; BD = beak depth 
+Fig. 03-03(fortis) Offspring bands = averages of offspring band numbers; femband = social mother; BD = beak depth
 Fig. 03-03(scandens) Offspring bands = averages of offspring band numbers; femband = social mother; BL = beak length
 Fig. 03-04 CL = confidence limit
 Fig. 04-04 SE = standard error
-Fig. 04-05 95% CI = 95% confidence interval; SE = standard error 
+Fig. 04-05 95% CI = 95% confidence interval; SE = standard error
 Fig. 04-06 N = sample size; BD = beak depth; SE = standard error
 Fig. 05-05 ln = natural log
 Fig. 05-06 95% CI = 95% confidence interval
@@ -27,7 +27,7 @@ Fig. 06-06 95% CI = 95% confidence interval; het = heterozygosity
 Fig. 06-11 O = Opuntia; SS = small seeds; SSOG = small seeds on ground
 Fig. 07.03 CI = 95% confidence interval
 Fig. 08-10 Y-axis is hybrid relative survival, before and after 1983
-Fig. 08-11 f = fuliginosa; F = fortis; S = scandens; Ff, fF, etc are hybrids and backcrosses 
+Fig. 08-11 f = fuliginosa; F = fortis; S = scandens; Ff, fF, etc are hybrids and backcrosses
 Fig. 08-12 fulifortis = fortis x fuliginosa hybrids; scandifortis = fortis x scandens hybrids
 Fig. 09-03 ful = fuliginosa; fort = fortis; scand = scandens; mag = magnirostris; ln = natural log; cum = cumulative; N = sample size
 Fig. 09-06 f = fuliginosa; F = fortis; S = scandens; Ff = hybrid F x f; FS = hybrid F x S
@@ -54,8 +54,6 @@ Fig. 14-01 ∂18O = oxygen isotope
 Fig. 14-02 SC = Santa Cruz; SD = standard deviation; cum = cumulative; ln = natural log
 Fig. 14-03 SD = standard deviation; cum = cumulative; ln = natural log; nos = numbers
 Fig. 17-02 Y = yellow; CI = 95% confidence interval; N = sample size
-Fig. 17-03 p = pink; y = yellow; py = heterozygote; yy = y homozygote 
+Fig. 17-03 p = pink; y = yellow; py = heterozygote; yy = y homozygote
 Fig. A-17-01 95% CI = 95% confidence interval
 Fig. B1-02 E = Espanola; F = Floreana
-
-
